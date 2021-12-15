@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Início da área do menu*/
+h1{
+	text-indent: -3000px;
+}
+#marcada{
+	background-color: red;
+}
+
+#menu{
+	background: url("img/fundo.png") repeat-x;
+	height: 233px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#dadosmenu{
+	width: 45%;
+	margin: auto;
+}
+
+#logo{
+	padding: 20px;
+}
+
+#mapa{
+	float: right;
+}
+
+.limpar {
+	clear: both;
+}
+
+#lista-menu{
+	position: absolute;
+	top: 13%;
+	right:33.5%;
+	padding: 15px 0px;
+	background-color: darkred;
+	background-image: url("img/divisor.png");
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.linha-menu{
+	list-style: none;	
+	display: inline;
+	padding: 15px 25px;
+	background-color: darkred;
+	margin: 0;
+}
+
+.linha-menu:hover{
+	background-color: red;
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu a:hover{
+	color: black;
+}
+/*Fim da área do menu*/
+
+
+#container{
+	width: 45%;
+	margin: auto;
+	/*border: 1px solid orange;*/	
+}
+
+/*Início da área-esquerda*/
+#area-esquerda{
+	background-image: url("img/fundo-caixa.png"); 
+	height: 370px;
+	width: 25.5%;
+	/*width: 220px;*/
+	float: left;
+}
+
+
+h2{
+	/*border: 2px solid black;*/
+	display: block;
+	background-color: blue;
+	color: white;
+	padding: 5px 5px 5px 5px;
+	margin-bottom: 10px;
+}
+
+#paragrafos{
+	background-color: white;
+	padding: 10px 60px 5px 10px;
+	margin: 0px 10px 10px 10px;
+	height: 285px;
+}
+
+
+/*#lista-esquerda{
+	border: 2px solid red;
+	padding: 10px 0px 15px 10px;
+	margin: 0px 10px 10px 10px;
+	display: inline-block;
+	list-style: none;
+	background-color: white;
+	height: 300px;
+}
+*/
+
+
+/*.linha-esquerda{
+	border: 2px solid gold;
+	list-style: none;
+	padding: 5px 60px 0px 5px;
+	font-size: 16px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+}*/
+
+#formulario{
+	background-image: url("img/fundo-caixa.png"); 
+	height: 160px;
+	width: 220px;
+}
+
+form{
+	padding: 5px 80px 5px 5px;
+	margin: 10px;
+	background-color: white;
+}
+
+#formulario h2{
+	display:inline-block;
+	background-color: blue;
+	color: white;
+	padding: 5px 80px 5px 5px;
+	margin: 10px;
+	width: 110px;
+}
+
+label, #enviar{
+	cursor: pointer;
+}
+
+#enviar{
+	background-color: darkred;
+	color: white;
+	padding: 5px 10px;
+	border-color: darkred;
+	margin-top: 2px;
+}
+
+/*Fim da área-esquerda*/
+
+/*Início da área-principal*/
+#principal{
+	float: left;
+	width: 35%;
+	/*height: 720px;*/
+	margin-left: 1.5%;
+}
+
+#principal-cima{
+	background-image: url("img/fundo-caixa.png");
+	width: 610px;
+	padding: 5px 5px 5px 5px;
+	margin: 10px;
+	height: 480px;
+}
+
+#principal-baixo{
+	background-image: url("img/fundo-caixa.png");
+	width: 610px;
+	padding: 5px 5px 5px 5px;
+	margin: 10px;
+	/*height: 390px;*/
+
+}
+
+#destaque{
+	background-color: white;
+	padding: 5px;
+}
+
+#area-escrita-toda{
+	background-color: white;
+	/*height: 330px;*/
+}
+
+#area-escrita{
+	padding-top: 10px;
+	height: 70px;
+}
+
+#area-escrita:hover{
+	padding-top: 10px;
+	background-color: lightgray;
+}
+
+#area-escrita a{
+	text-decoration: none;
+	color: blue;
+	padding-left: 5px;
+	/*height: 480px;*/
+}
+
+#area-escrita p{
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+#rodape{
+	background-color: blue;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}

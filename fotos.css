@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Início da área do menu*/
+h1{
+	text-indent: -3000px;
+}
+#marcada{
+	background-color: red;
+}
+
+#menu{
+	background: url("img/fundo.png") repeat-x;
+	height: 233px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#dadosmenu{
+	width: 45%;
+	margin: auto;
+}
+
+#logo{
+	padding: 20px;
+}
+
+#mapa{
+	float: right;
+}
+
+.limpar {
+	clear: both;
+}
+
+#lista-menu{
+	position: absolute;
+	top: 13%;
+	right:33.5%;
+	padding: 15px 0px;
+	background-color: darkred;
+	background-image: url("img/divisor.png");
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
+.linha-menu{
+	list-style: none;	
+	display: inline;
+	padding: 15px 25px;
+	background-color: darkred;
+	margin: 0;
+}
+
+.linha-menu:hover{
+	background-color: red;
+}
+
+#menu a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu a:hover{
+	color: black;
+}
+/*Fim da área do menu*/
+
+#principal{
+	/*border: solid red 2px;*/
+	width: 45%;
+	height: 500px;
+	margin: auto;
+	
+}
+
+#parte-cima{
+	/*border: solid green 2px;*/
+	padding: 5px;
+	background-image: url('img/fundo-caixa.png');
+}
+
+h3{
+	/*border: solid black 2px;*/
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#legislacao{
+	background-color: white;
+	padding: 5px;
+}
+
+#legislacao h4{
+	display: inline;
+	background-color: red;
+	color: white;
+}
+
+#parte-baixo{
+	/*border: solid green 2px;*/
+	padding: 5px;
+	background-image: url('img/fundo-caixa.png');
+}
+
+#area-escrita-toda{
+	background-color: white;
+	/*height: 330px;*/
+}
+
+#area-escrita{
+	padding-top: 10px;
+	height: 70px;
+}
+
+#area-escrita:hover{
+	padding-top: 10px;
+	background-color: lightgray;
+}
+
+#area-escrita a{
+	text-decoration: none;
+	color: blue;
+	padding-left: 5px;
+	/*height: 480px;*/
+}
+
+#area-escrita p{
+	font-size: 14px;
+	padding-left: 5px;
+}
+
+#rodape{
+	background-color: blue;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
